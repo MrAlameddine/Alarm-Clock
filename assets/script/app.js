@@ -1,6 +1,6 @@
 'use strict';
 
-import {select, getElement, onEvent} from "./utils.js";
+import {select, getElement, onEvent} from "./utils.js"; 
 let curntlyTIme;
 
 function updateCurrentTime() {
@@ -46,8 +46,9 @@ setInterval(updateClock, 1000);
 updateClock(); 
 
 function playAlarm() {
-  const sound = new Audio('./assets/sound/digital-alarm-beeping-slava-pogorelsky-1-00-06.mp3')
+  const sound = new Audio('./assets/sound/alarm.mp3')
   sound.type='audio/mp3';
+  sound.loop = true;
   sound.play();
   alarmTime = null;
 }

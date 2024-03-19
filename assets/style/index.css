@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #333;
+    background-color: #100830;
     color: white;
     display: flex;
     justify-content: center;
@@ -15,12 +15,12 @@ body {
     text-align: center;
   }
 
-  .current-time {
+  .curntly-time {
     font-size: 96px;
     letter-spacing: -5px;
   }
 
-  .setting-alarm {
+  .setting-analarm {
     margin-top: 20px;
     font-size: 24px;
     color: #aaa;
